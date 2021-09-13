@@ -1,0 +1,40 @@
+## Passo a passo para criar um repositório :walking_man: 
+
+
+
+- No site da **github**, fui em **new repository**,  em **Repository name** coloquei ( dio-desafio-github-primeiro repositorio)
+
+- Em **description** coloquei (Desafio de projeto Git/Github), sempre deixar em **public** para que outros vejam seu repositório.
+
+- Coloquei **add + Readme file** ( Apertei creat repository);
+
+- Mudei meu texto em **edit file** (Lá coloquei um texto de minha preferencia, para ficar em meu repositório), fiz os passos a seguir:
+
+1. #Desafio de projeto sobre Git/GitHub
+
+2. Repositório criado para o desafio de projeto
+
+3. ##Coloquei os links úteis com tamanho de fonte 2 
+
+4. [Sintaxe basica markdown] (colei o link do site ,markdown guide)
+
+   
+
+   - Na opção preview, consigo ver como está ficando minhas alterações, e após eu alterar, apertei **Commit change** > (para mandar para fila do commit e fazer o push para a máquina)
+
+   - Depois apertei em **Main** (onde estava o meu título), apertando em seguida **code** , e com isso clonei o link em **HTTPS**.
+
+   - Criei uma pasta em meus documentos e abri o dash here a partir desta pasta, e no prompt digitei:
+
+   1. $ **git clone** e na frente colei o link que havia copiado em **HTTPS** , assim que dei enter apareceu uma mensagem falando que tinha clonado 100% do repositório, e na minha máquina pude observar que a pasta já estava lá, com meu arquivo;
+   2. **cd dio-desafio-github-primeiro-repositorio** (entrar no arquivo README que havia criado);
+   3. **git status** (me mostrou que a brand estava ok), depois volto para a pasta README ;
+   4. **git status** (ele me mostrou que tinha arquivos para comitar, está em untracked file);
+   5. **git add** (adiciona as pastas que estão na fila sem comitar) ;
+   6. **git status** (mostra que as pastas novas ou arquivos já foram para a fila para serem comitados) ;
+   7. **git commit -m "Inclusão das anotações do desafio"** (esse comando comita realmente as pastas e arquivos que estavam na fila. entre "" eu tenho que colocar meu comentário do que estou fazendo, para que faça sentido o que estou fazendo) ;
+   8. **git push origin main** (esse comando envia tudo para o repositório remoto no site da github, onde todos os commits que fiz, subiram para o remoto);
+
+   
+
+   - No site eu atualizo a página, e ele já mostra que foi incluído minha nova pasta
